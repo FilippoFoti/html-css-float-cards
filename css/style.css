@@ -30,5 +30,72 @@ body {
 
 .title p {
     font-size: 1.2rem;
-    padding-bottom: 30px;
+}
+
+/* SECTION CARDS */
+.cards {
+    margin-top: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col1 {
+    width: calc(100% / 3 - 20px);
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+    background-color: black;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+}
+
+.col2 {
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+    background-color: black;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+}
+
+.col3 {
+    width: calc(100% / 3 - 20px);
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    background-color: black;
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
+}
+
+img {
+    max-width: 100%;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.cards h4 {
+    color: white;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.cards p {
+    color: white;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: rgba(84,169,165,255);
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: left;
 }
